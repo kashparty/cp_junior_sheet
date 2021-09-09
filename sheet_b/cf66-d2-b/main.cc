@@ -23,4 +23,5 @@ int main() {
     for (int i = 0; i < n; i++) ans = max(ans, left[i] + right[i]);
     cout << ans + 1 << "\n";
     return 0;
+
 }
